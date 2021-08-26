@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 35px;
+    width: 80%;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+    font-size: 41px;
+}
+.container p{
+    font-size: 19px;
+    text-align: center;
+}
+form{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+input, textarea{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    margin: 11px 0px;
+}
+.btn{
+    color: black;
+    display: inline;
+    background: green;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+.msg p{
+    text-align: center;
+    font-size: 30px;
+}
+.bgd{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.9;
+    height: 110%;
+}
+.msg{
+    color: aquamarine;
+}
